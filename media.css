@@ -1,0 +1,105 @@
+
+/* media Queri system */
+@media (max-width:1199px) { /*Large screen*/
+
+}
+
+@media (max-width:991px) { /*Desktop*/
+    .testimonials .ts-box{
+        width: fit-content;
+        margin-bottom:30px ;
+    }
+
+}
+
+@media (max-width:767px) { /*Medium devices => Taplets*/
+ 
+    .about-us .img-box img{
+        width: 195px; 
+    }
+    .about-us .img-box{
+        top: 100px;
+    }
+    .skills .skill-box {
+        display: block;       
+    }
+    .skills .skill-box .skill-name{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .features .feat-box{
+        display: block;
+        width: calc(100% / 2);
+    }
+    
+    .testimonials .ts-box{
+        width: fit-content;
+        margin-bottom:30px ;
+    }
+    .contact form .left,
+    .contact form .right{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (max-width:575px) { /*small devices => land scape phones*/
+    .introduction-text h1{
+        font-size: 26px;
+    }
+    .about-us{
+        width: 75%;
+        text-align: center;
+    }
+    .about-us .img-box{
+        display: none;
+    }
+    .about-us .info-box p{
+        width: 100%;
+    }
+    .features .feat-box{
+        width: fit-content;
+    }
+    .features .feat-box img{
+   
+        width: 75%;
+    }
+
+
+}
+
+
+
+/* media Queri system */
+
+
+
+
+
+
+
+
+
+/* start grid system */
+@media (min-width:576px) { /*small devices => land scape phones*/
+    .container{
+        max-width: 540px;
+    }
+  
+}
+@media (min-width:768px) { /*Medium devices => Taplets*/
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width:992px) { /*Desktop*/
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width:1200px) { /*Large screen*/
+    .container{
+        max-width: 1140px;
+    }
+}
+/* End grid system */
